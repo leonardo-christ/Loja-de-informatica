@@ -1,8 +1,5 @@
-$(document).ready(function(){
-    $('.date').mask('00/00/0000');
-    $('.time').mask('00:00:00');
-    $('.date_time').mask('00/00/0000 00:00:00');
-    $('.cep').mask('00000-000');
-    $('#telefone').mask('0000-0000');
-    $('.phone_with_ddd').mask('(00) 0000-0000');
-})
+    $(document).ready(function() {
+        $('#telefone').inputmask('(99) 99999-9999');
+        $('#nome').attr("placeholder", "João Silva")
+        $('#email').attr("placeholder", "joão.silva@exemplo.com")
+    })
