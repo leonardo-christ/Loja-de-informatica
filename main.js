@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('#telefone').mask('(00) 00000-0000',{
-        placeholder: '(00) 00000-0000'
+    $(document).ready(function() {
+        $('#telefone').inputmask('(99) 99999-9999');
+        $('#nome').attr("placeholder", "João Silva")
+        $('#email').attr("placeholder", "joão.silva@exemplo.com")
     })
-})

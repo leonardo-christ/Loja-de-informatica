@@ -51,6 +51,25 @@ letter-color {
     color: #fff;
 }
 
+.sombreado {
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.tab-content img {
+    max-height: 180px;
+    object-fit: contain;
+}
+
+.card {
+    background-color: #e8e8e8;
+    border: none;
+}
+
+.card-body {
+    max-height: 180px;
+    height: 100%;
+}
+
 .nav-hardware .nav-link:hover,
 .icons i {
     color: #212529;
