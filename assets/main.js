@@ -32,7 +32,6 @@
                 if (camposIncorretos > 0) {
                     alert(`Existem ${camposIncorretos} campos incorretos`);
                 }
-                console.log(camposIncorretos);
             }
         });
     });
