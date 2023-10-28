@@ -1,7 +1,12 @@
     $(document).ready(function() {
         $('#telefone').mask('(99) 99999-9999',{ 
         placeholder: '(00) 00000-0000'});
-        $('#formo').validate({
+        $('#nome').attr('placeholder', 'João Silva')
+        $('#email').attr('placeholder', 'joaosilva@gmail.com')
+        $('#mensagem').attr('placeholder', 'Deixe aqui a sua mensagem de feedback ou duvida.')
+        $('#form').validate({
+            errorElement: "span",
+            errorClass: "error-message",
             rules: {
                 nome: {
                     required: true,
