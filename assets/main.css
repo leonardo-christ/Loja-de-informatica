@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar {
+    background-color: #212529;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #212529;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-hardware .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(184, 184, 184);
+}
+
+.back-color {
+    background-color: #bdbdbd57;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 800px;
+}
+
+.loja img {
+    height: 400px;
+}
+
+.text {
+    color: rgb(26, 26, 26);
+}
+
+.nav-hardware .nav-link.active {
+    background-color: #212529;
+    color: #fff;
+}
+
+.sombreado {
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.tab-content img {
+    max-height: 180px;
+    object-fit: contain;
+}
+
+.card {
+    background-color: #e8e8e8;
+    border: none;
+    padding-left: 0;
+}
+
+.card-body {
+    max-height: 180px;
+    height: 100%;
+}
+
+.nav-hardware .nav-link:hover,
+.icons i {
+    color: #212529;
+}
+
+.icons {
+    list-style: none;
+    display: inline-flex;
+}
+
+.error-message {
+    color: red;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .sobre {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .carousel-item img {
+        height: 500px;
+    }
+
+
+    .mont,
+    .card {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between;
+        left: 14px;
+    }
+
+}

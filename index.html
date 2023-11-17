@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christ Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-2">Christ Store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-mobile">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-loja" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#computador" class="nav-link">
+                            <i class="bi bi-pc me-1"></i>
+                            Computadores montados
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#Hardware" class="nav-link">
+                            <i class="bi bi-gpu-card me-1"></i>
+                            Hardware
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#entre-em-contato" class="nav-link">
+                            <i class="bi bi-send-fill me-1"></i>
+                            Entre em contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabacalho" data-bs-smooth-scroll="true">
+        <section data-bs-spy="scroll" data-bs-target="#cabacalho">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-intervel="4000">
+                        <img src="./arquivos/loja/teclado.jpg" alt="Foto de um teclado">
+                    </div>
+                    <div class="carousel-item" data-bs-intervel="4000">
+                        <img src="./arquivos/loja/setup.jpg" alt="Foto de um setup">
+                    </div>
+                    <div class="carousel-item" data-bs-intervel="4000">
+                        <img src="./arquivos/loja/pcs2.jpg" alt="Foto de um computador">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5 back-color" id="sobre-loja">
+                <div class="container">
+                    <div class="d-flex sobre">
+                        <div class="col-md-5 loja">
+                            <img src="./arquivos/loja/loja.jpg" class="d-block w-100 rounded" alt="Foto do espaço da loja">
+                        </div>
+                        <div class="col-md-7 ms-3 fw-bold mt-3 mt-md-0">
+                            <h2 class="fw-bold">Sobre a Loja</h2>
+                            <p>
+                                Nossa loja de peças para computadores gamers é o paraíso dos gamers. Oferecemos GPUs, CPUs, placas-mãe e acessórios de alta performance para criar a máquina dos seus sonhos. Compre conosco e eleve sua experiência de jogo a um novo nível.
+                            </p>
+                            <h2 class="fw-bold">Como Trabalhamos</h2>
+                            <p>
+                                Na nossa loja de peças eletrônicas, nosso foco é a qualidade e a acessibilidade. Oferecemos um amplo estoque de componentes eletrônicos de última geração, com assistência técnica especializada. Priorizamos o atendimento ao cliente, auxiliando na seleção e no suporte pós-venda para garantir a satisfação e o sucesso de cada projeto.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="computador">
+            <div class="container">
+                <div>
+                    <h2 class="text-center mb-5 fw-bold">Computadores Montados</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 mont">
+                        <img src="./arquivos/pcs montados/pc3.png" class="w-100 mb-2" alt="Foto de um computador">
+                        <h3 class="fs-4">
+                            COMPUTADOR HOME HM585, AMD RYZEN 5 5600G, 8GB DDR4, SSD 480GB
+                        </h3>
+                        <button class="btn btn-dark w-100 fw-bold">Clique aqui para saber mais sobre</button>
+                    </div>
+                    <div class="col-md-4 mont">
+                        <img src="./arquivos/pcs montados/pc1.jpg" class="w-100 mb-2" alt="Foto de um computador">
+                        <h3 class="fs-4">
+                            COMPUTADOR GAMER, AMD RYZEN 9 5950X, GEFORCE RTX 3060 TI 8GB, 16GB DDR4, SSD M.2 480GB
+                        </h3>
+                        <button class="btn btn-dark w-100 fw-bold">Clique aqui para saber mais sobre</button>
+                    </div>
+                    <div class="col-md-4 mont">
+                        <img src="./arquivos/pcs montados/pc2.jpg" class="w-100 mb-2" alt="Foto de um computador">
+                        <h3 class="fs-4">
+                            PC GAMER TERTZ SUBLIME INTEL CORE I7 13700KF, 32GB RAM DDR5, RTX 4090 24GB, SSD 2TB
+                        </h3>
+                            <button class="btn btn-dark w-100 fw-bold">Clique aqui para saber mais sobre</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5 back-color" id="Hardware">
+            <div class="container">
+                <div>
+                    <h2 class="text-center mb-5 fw-bold">Hardware</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column me-3 nav-hardware">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#placa-de-video" class="text-start active fw-bold nav-link text pb-3 pt-3 mr-1">Placa de video</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#processador" class="text-start fw-bold nav-link text pb-3 pt-3">Processador</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#placa-mae" class="text-start fw-bold nav-link text pb-3 pt-3">Placa mãe</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#memoria-ram" class="text-start fw-bold nav-link text pb-3 pt-3">Memória RAM</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fonte" class="text-start fw-bold nav-link text pb-3 pt-3">Fonte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#disco-rigido" class="text-start fw-bold nav-link text pb-3 pt-3">Disco rígido</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="placa-de-video">
+                                <div class="row">
+                                    <div class="col-md-6 card">
+                                        <img src="./arquivos/placas de video/rtx_4090.jpg" class="w-100 sombreado" alt="foto de uma placa de video">
+                                        <div class="card-body">
+                                            <span class="mt-3 mb-6 fw-bold fw-bold">PLACA DE VÍDEO RTX 4090 ASUS NVIDIA TUF GAMING GEFORCE EDITION</span>
+                                        </div>
+                                        <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                        <img src="./arquivos/placas de video/rtx_4080.jpg" class="w-100 sombreado" alt="foto de uma placa de video">
+                                        <div class="card-body">
+                                            <span class="mt-3 mb-6 fw-bold">PLACA DE VÍDEO RTX 4080 VENTUS 3X OC MSI NVIDIA GEFORCE</span>
+                                        </div>
+                                        <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placas de video/rtx_4070.jpg" class="w-100 sombreado" alt="foto de uma placa de video">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA DE VÍDEO RTX 4070 TUF GAMING OC EDITION ASUS NVIDIA GEFORCE</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placas de video/RTX-4070_TI.jpg" class="w-100 sombreado" alt="foto de uma placa de video">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA DE VÍDEO RTX 4070 TI ROG STRIX GAMING ASUS NVIDIA GEFORCE</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placas de video/RTX_4060.jpg" class="w-100 sombreado" alt="foto de uma placa de video">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA DE VÍDEO RTX 4060 AERO OC GIGABYTE NVIDIA GEFORCE</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="processador">
+                                <div class="row">
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/processador/i7.jpg" class="w-100 sombreado" alt="foto de um processador">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PROCESSADOR INTEL CORE I7 13700K, 5.40GHz MAX TURBO, 16-CORE, LGA1700</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/processador/ryzen9.jpg" class="w-100 sombreado" alt="foto de um processador">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PROCESSADOR AMD RYZEN 9 7950X, 5.7GHz MAX TURBO, CACHE 80MB, AM5, 16 NÚCLEOS</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/processador/i5.jpg" class="w-100 sombreado" alt="foto de um processador">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PROCESSADOR INTEL CORE I5-13600K, 3.5GHz, CACHE 24MB, 20 THREADS, LGA 1700</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/processador/ryzen7.jpg" class="w-100 sombreado" alt="foto de um processador">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PROCESSADOR AMD RYZEN 7 7700X, 5.4GHz MAX TURBO, CACHE 40MB, AM5, 8 NÚCLEOS</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/processador/i9.jpg" class="w-100 sombreado" alt="foto de um processador">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PROCESSADOR INTEL CORE i9-13900KS, 6.0GHz MAX TURBO, CACHE 36MB, 32 THREADS, LGA 1700</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="placa-mae">
+                                <div class="row">
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placa mãe/placa_mae_1.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA MÃE ASUS TUF GAMING Z690-PLUS D4, INTEL 1700 Z690, ATX, DDR4</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placa mãe/placa_mae_2.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA MÃE ASUS ROG STRIX X670E-F GAMING, Wi-Fi, DDR5, ATX, AM5</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placa mãe/placa_mae_3.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA MÃE GIGABYTE B760M AORUS ELITE (rev. 1.0), LGA 1700, DDR5</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placa mãe/placa_mae_4.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA MÃE B650-P MSI PRO Wi-Fi, AMD AM5, ATX, DDR5 - PRO B650-P WIFI</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/placa mãe/placa_mae_5.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">PLACA MÃE ASUS ROG MAXIMUS Z790 HERO, INTEL LGA1700 Z790, ATX, DDR5, Wi-Fi</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="memoria-ram">
+                                <div class="row">
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/memória ram/memoria1.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">MEMÓRIA CORSAIR VENGEANCE LPX 32GB (2x16GB), 3600MHz, DDR4, C18, PRETO</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/memória ram/memoria2.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">MEMÓRIA KINGSTON FURY BEAST, RGB, 32GB (4x8GB), 3600MHz, DDR4, CL18, PRETO</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/memória ram/memoria3.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">MEMÓRIA XPG LANCER, RGB, 32GB (2x16GB) 6000MHz, DDR5, CL40 - AX5U6000C4016G</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/memória ram/memoria4.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">MEMÓRIA CORSAIR VENGEANCE RGB, 32GB (2x 16GB), 6200MHz, DDR5, C36, PRETO</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/memória ram/memoria5.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">MEMÓRIA CORSAIR VENGEANCE RGB PRO, 32GB (2x16GB), 3600MHz, DDR4, C18, PRETO</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fonte">
+                                <div class="row">
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/fontes/corsair.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">FONTE CORSAIR RM850X, CERTIFICAÇÃO 80 PLUS GOLD, FULL MODULAR</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/fontes/xpg.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">FONTE XPG CORE REACTOR, 850W, 80 PLUS GOLD MODULAR</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/fontes/gamemax.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">FONTE GAMEMAX GP750, 750W, 80 PLUS BRONZE, PFC ATIVO, BIVOLT, COM CABO, PRETO</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/fontes/EVGA.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">FONTE EVGA 600W, 80 PLUS WHITE - 100-W1-0600-K - PFC ATIVO</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/fontes/gigabyte.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">FONTE GIGABYTE 650W, 80 PLUS BRONZE - GP-P650B/BR</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mb-2" id="disco-rigido">
+                                <div class="row">
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/armazenamento/mi2.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">SSD SAMSUNG 980 PRO 1TB NVMe M.2 2280, LEITURA ATÉ 6900MB/s E GRAVAÇÃO 5000MB/s</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/armazenamento/ssd.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">SSD PLUS 1 TB, SDSSDA1T00, LEITURA 530MB/s, GRAVAÇÃO 445MB/s</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                    <div class="col-md-6 card">
+                                            <img src="./arquivos/armazenamento/hdd.jpg" class="w-100 sombreado" alt="foto de uma placa mãe">
+                                            <div class="card-body">
+                                                <span class="mt-3 mb-6 fw-bold">HDD WESTERN DIGITAL GOLD, 8TB, DE CLASSE EMPRESARIAL, 256MB, SATA 3 - Wd8004fryz</span>
+                                            </div>
+                                            <button type="button" class="btn btn-dark w-100 mb-4 fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="entre-em-contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pb-5 fw-bold">Contatos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-4">
+                        <form id="form">
+                            <div>
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mt-3 mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label fw-bold">Seu telefone</label>
+                                <input type="number" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mt-3 mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3>
+                                <i class="bi bi-wechat"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="icons mb-4">
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook fs-3"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram ms-2 me-2 fs-3"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp fs-3"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3>
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua das Inovações nº 123, Bairro Tecnópolis - Harmonia - RS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
